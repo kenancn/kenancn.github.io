@@ -26,7 +26,7 @@ print ("Merhaba\npython")
 
 bize bu şekilde vermesini sağlayan kaçış dizisidir.
 
-2. kaçış dizi olan '\t' ise bir tab boyu kadar boşluk bırakmamıza yarar.örnek verecek olursak;
+2.si '\t'  bir tab boyu kadar boşluk bırakmamıza yarar.örnek verecek olursak;
 {% highlight js %}
 
 print ("merhaba\tpython") 
