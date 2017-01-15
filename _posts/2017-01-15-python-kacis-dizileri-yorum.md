@@ -45,6 +45,7 @@ print ("Merhaba\n\tpython")
 {% endhighlight %}
 
 Yani ilk önce satır atla (\n) sonra bir tab tuşu kadar boşluk bırak (\t) anlamına gelir.
+
 3.kaçış dizisi olan '\' bu ise bize karışıklığı önlemek adına kullanılır.Örnekle izah edeyim. 
 {% highlight js %}
 
