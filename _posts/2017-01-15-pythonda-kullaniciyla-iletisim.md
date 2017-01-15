@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pythonda kullanıcıyla iletişim 
+title: Python'da kullanıcı ile iletişim 
 ---
 
 Merhaba arkadaşlar. Bu yazı da kullanıcıyla iletişim yani raw_input() ve input() fonksiyonlarını inceleyeceğiz.
