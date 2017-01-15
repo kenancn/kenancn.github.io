@@ -6,14 +6,14 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Kenan Cans
+title:            Kenan Can
 tagline:          'Kenan Can'
-description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Güvenliğe ilgi duyan biri'
 url:              https://kenancn.github.io/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Kenan Can'
+  url:            https://twitter.com/kenancn2
 
 paginate:         5
 
