@@ -79,6 +79,6 @@ ve son olarak enbasit ve en zevkli olan ise yorum satırı.
  '#' bu sembolü koyarsak  bundan sonra yazacağımız hiçbir şey  işleme sokulmaz.
 {% highlight js %}
 
-//#yani kafana göre herşey yazabilirsin bu sembolden satır bitene kadar özgürsün
-
+//#yani kafana göre herşey yazabilirsin bu sembolden 
+//#satır bitene kadar özgürsün
 {% endhighlight %}
