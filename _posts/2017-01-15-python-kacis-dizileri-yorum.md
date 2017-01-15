@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Pyhtonda kaçış dizileri ve yorum satırları
+title: Pyhton'da kaçış dizileri ve yorum satırları
 ---
 
-Merhaba arkadaşlar.Pyhton da işimizi kolaylaştıracak kaçış dizileri vardır.
+Merhaba arkadaşlar.Pyhton'da işimizi kolaylaştıracak kaçış dizileri vardır.
 Bunlar:
 
 * '\'
