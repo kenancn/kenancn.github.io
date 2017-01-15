@@ -7,12 +7,12 @@ permalink:        pretty
 
 # Setup
 title:            Kenan Can
-tagline:          ''
+tagline:          'Kenan Can'
 description:      'Güvenliğe ilgi duyan biri'
 url:              https://kenancn.github.io/
 
 author:
-  name:           'Kenan Can'
+  name:           ''
   url:            https://twitter.com/kenancn2
 
 paginate:         5
