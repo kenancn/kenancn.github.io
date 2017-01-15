@@ -4,7 +4,7 @@ title: Pyhtonda kaçış dizileri ve yorum satırları
 ---
 
 Merhaba arkadaşlar.Pyhton da işimizi kolaylaştıracak kaçış dizileri vardır.
-Bunlar; 
+Bunlar:
 * \ 
 * \n
 * \t
