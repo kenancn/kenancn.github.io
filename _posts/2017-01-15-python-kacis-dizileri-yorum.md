@@ -5,9 +5,9 @@ title: Pyhtonda kaçış dizileri ve yorum satırları
 
 Merhaba arkadaşlar.Pyhton da işimizi kolaylaştıracak kaçış dizileri vardır.
 Bunlar:
-* "\" 
-* "\n"
-* "\t"
+* '\' ,
+* '\n' ,
+* '\t'
 sola yatık olanlardır.Görevlerini şu şekilde açıklayayım.
 
 ### Kaçış Dizileri
