@@ -14,7 +14,7 @@ sola yatık olanlardır.Görevlerini şu şekilde açıklayayım.
 
 ### Kaçış Dizileri
 
-1.. si '\n' bu diğer satıra kaydırır.Yani bu diziden sonra ki kısmı alt satıra geçirir.
+1. si '\n' bu diğer satıra kaydırır.Yani bu diziden sonra ki kısmı alt satıra geçirir.
 örnek verecek olursak ;
 {% highlight js %}
 
@@ -26,7 +26,7 @@ print ("Merhaba\npython")
 
 bize bu şekilde vermesini sağlayan kaçış dizisidir.
 
-2.. kaçış dizi olan '\t' ise bir tab boyu kadar boşluk bırakmamıza yarar.örnek verecek olursak;
+2. kaçış dizi olan '\t' ise bir tab boyu kadar boşluk bırakmamıza yarar.örnek verecek olursak;
 {% highlight js %}
 
 print ("merhaba\tpython") 
@@ -45,7 +45,7 @@ print ("Merhaba\n\tpython")
 {% endhighlight %}
 
 Yani ilk önce satır atla (\n) sonra bir tab tuşu kadar boşluk bırak (\t) anlamına gelir.
-3..kaçış dizisi olan '\' bu ise bize karışıklığı önlemek adına kullanılır.Örnekle izah edeyim. 
+3.kaçış dizisi olan '\' bu ise bize karışıklığı önlemek adına kullanılır.Örnekle izah edeyim. 
 {% highlight js %}
 
 print ("\n \t bir kaçış dizileridir") 
