@@ -14,7 +14,18 @@ sola yatık olanlardır.Görevlerini şu şekilde açıklayayım.
 
 ### Kaçış Dizileri
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
+'\n' bu diğer satıra kaydırır.Yani bu diziden sonra ki kısmı alt satıra geçirir.
+örnek verecek olursak ;
+{% highlight js %}
+
+print ("Merhaba\npython") 
+
+//Merhaba
+//python
+{% endhighlight %}
+
+
+
 
 * Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
 * Mobile friendly design and development
