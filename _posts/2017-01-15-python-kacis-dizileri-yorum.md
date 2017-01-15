@@ -76,9 +76,7 @@ print (r"\\n \\t bir kaçış dizileridir")
 ve son olarak enbasit ve en zevkli olan ise yorum satırı.
 
 ### Yorum Satırı
-
-  In addition to the features of Poole, Lanyon adds the following:
-# bu sembolü koyarsak  bundan sonra yazacağımız hiçbir şey  işleme sokulmaz.
+ '#' bu sembolü koyarsak  bundan sonra yazacağımız hiçbir şey  işleme sokulmaz.
 {% highlight js %}
 
 #yani kafana göre herşey yazabilirsin bu sembolden satır bitene kadar özgürsün
