@@ -26,3 +26,4 @@ title: About
                             </li>
                         </ul>
 </div>
+<script src="/freelancer-theme/js/bootstrap.min.js"></script>
