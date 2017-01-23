@@ -4,10 +4,9 @@ title: Siber yıldız sınavındaki Splinter sorusu
 ---
 
 Soru şu Şekilde idi.
-```
+{% highlight js %}
 Splinter'ın bilgisayarından önemli veriler aldık, bunlarınn ne olduğu bul ve bize bildir.
-
-```
+{% endhighlight %}
 Soruda ki pcap dosyaya ulaşmak isterseniz <a href="https://drive.google.com/file/d/0B5oAKQrb3-OhcmRqZTBER0JLZGM/view">buradan</a>
 ulaşıp indirebilirsiniz.Pcap dosyasını wiresharkta açtıktan paketlerin usb portundan geldiğini görmekteyiz.Ve bu aygıtın 
 fare olduğunu ve farenin konum hareketlerinin olduğunu düşünerek Tshark aracını kullanarak paketlerde ki verileri çekeceğiz.
