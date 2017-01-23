@@ -5,8 +5,9 @@ title: Siber yıldız sınavındaki Splinter sorusu
 
 Soru şu Şekilde idi.
 {% highlight js %}
-Splinter'ın bilgisayarından önemli veriler aldık, bunlarınn ne olduğu bul ve bize bildir.
+#Splinter'ın bilgisayarından önemli veriler aldık, bunlarınn ne olduğu bul ve bize bildir.
 {% endhighlight %}
+
 Soruda ki pcap dosyaya ulaşmak isterseniz <a href="https://drive.google.com/file/d/0B5oAKQrb3-OhcmRqZTBER0JLZGM/view">buradan</a>
 ulaşıp indirebilirsiniz.Pcap dosyasını wiresharkta açtıktan paketlerin usb portundan geldiğini görmekteyiz.Ve bu aygıtın 
 fare olduğunu ve farenin konum hareketlerinin olduğunu düşünerek Tshark aracını kullanarak paketlerde ki verileri çekeceğiz.
@@ -14,8 +15,8 @@ Tshark aracı wireshark gibi paket analiz aracıdır ve fare konum hareketlerini
 {% highlight js %}
 tshark -r splinter -T fields -e usb.capdata > data.txt
 {% endhighlight %}
-bu komutla -r den sonra pcap dosyamız -T ve -e parametrelermizden  sonra ise verilerin olduğu alanları belirlememizi sağlar.
-> parametresinden sonra ise verileri kaydedeceğimiz dosya ismini belirler.
+bu komutla -r den sonra pcap dosyamız -T ve -e parametrelermizden  sonra ise verilerin olduğu alanları belirlememizi sağlar.'>' parametresinden sonra ise verileri kaydedeceğimiz dosya ismini belirler.
+
 {% highlight js %}
 00:ff:01:00
 00:fe:00:00
@@ -24,6 +25,7 @@ bu komutla -r den sonra pcap dosyamız -T ve -e parametrelermizden  sonra ise ve
 00:fb:00:00
 00:fa:ff:00
 {% endhighlight %}
+
 Bize bu şekilde veriler döktü.Bu verileri ile x ve y şeklinde konum haline düzeltmem gerekiyor.Burada ise awk veri düzenleme
 aracını kullanmamız gerekiyor.
 {% highlight js %}
